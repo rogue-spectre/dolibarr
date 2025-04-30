@@ -219,7 +219,7 @@ if ($action == 'create') {
 	print '<tr><td>'.$langs->trans('Numero');
 	print ' <em>('.$langs->trans("ChequeOrTransferNumber").')</em>';
 	print '</td>';
-	print '<td colspan="2"><input name="num_payment" type="text" value="'.GETPOST('num_payment').'"></td></tr>'."\n";
+	print '<td colspan="2"><input name="num_payment" type="text" value="'.GETPOST('num_payment').'"></td></tr>';
 
 	print '<tr>';
 	print '<td class="tdtop">'.$langs->trans("Comments").'</td>';
